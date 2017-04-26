@@ -1,0 +1,21 @@
+Sample Input/Output of rsa_encrytion.py:
+
+Would You like to Encrypt or Decrypt?
+Enter 1 to encrypt
+Enter 2 to decrypt
+1
+Enter a message you want to encrypt: Luke Skywalker is 'The Last Jedi'
+Enter a prime number > 127: 709
+Enter another distinct prime number > 127:  1153
+Your encrypted message is: 693063 444622 176886 165139 680348 508846 176886 405610 102593 733576 540716 176886 165139 254773 680348 439493 760062 680348 794401 381108 531104 165139 680348 693063 733576 760062 264905 680348 85065 165139 258901 439493 794401
+Your private key is: (412753, 817477) You will need this to decrypt later.
+Your public key is: (405169, 817477)
+
+Would You like to Encrypt or Decrypt?
+Enter 1 to encrypt
+Enter 2 to decrypt
+2
+Enter a message you want to decrypt: 693063 444622 176886 165139 680348 508846 176886 405610 102593 733576 540716 176886 165139 254773 680348 439493 760062 680348 794401 381108 531104 165139 680348 693063 733576 760062 264905 680348 85065 165139 258901 439493 794401
+Enter your private key d: 412753
+Enter n: 817477
+Luke Skywalker is 'The Last Jedi'
